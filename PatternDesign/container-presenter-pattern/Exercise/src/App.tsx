@@ -1,10 +1,11 @@
+import { ProductListContainer } from "./components/ProductListContainer"
 
 
 function App() {
-
+  
   return (
     <>
-      Heading
+      <ProductListContainer itemId={1}/>
     </>
   )
 }
